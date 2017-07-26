@@ -63,6 +63,9 @@ daily_average[which.max(daily_average$steps),]
 ```
 
 ## Imputing missing values
+A strategy that is chosen for imputing a missing value is to use the mean value for that 5-minute interval in the dataset.
+
+A new data frame final_sum_data is created and is equal to the original dataset but with the missing data filled in by using the mean value for that interval.
 ```{r , echo=TRUE}
 ## Question 3.Imputing missing values
 
